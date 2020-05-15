@@ -2,7 +2,7 @@
   "Application": {
     "environment": "production",
     "dashboard": "https://app.taglayer.com",
-    "port": 3030,
+    "port": 3000,
     "secret": "tglyrsupahsecretkey",
     "database": {
       "client": "mongodb+srv://iliasadmin:JlxcCzuyWo0K0hMm@web-push-orkuv.mongodb.net/clients?retryWrites=true&w=majority"

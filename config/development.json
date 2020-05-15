@@ -1,7 +1,7 @@
 {
   "Application": {
     "environment": "development",
-    "port": 3000,
+    "port": 3030,
     "secret": "tglyrsupahsecretkey",
     "database": {
       "client": "mongodb+srv://iliasadmin:JlxcCzuyWo0K0hMm@web-push-orkuv.mongodb.net/clients?retryWrites=true&w=majority"
