@@ -1,13 +1,11 @@
 const signale = require('signale');
 const config = require('config');
 
-const app = require('./app');
-
 const configPort = config.get('Application.port');
 
-let server;
+const app = require('./app');
 
-server = app.listen(configPort, () => {
-    signale.start(`Starting at ${(new Date()).toString()}`);
-    signale.start(`Server listening on port ${configPort}`);
+
+app.listen(configPort, () => {
+    console.log('Started server', configPort)
 });
