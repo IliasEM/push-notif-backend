@@ -17,8 +17,12 @@
     "cors": "^2.8.5",
     "cuid": "^2.1.8",
     "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "fs": "0.0.1-security",
+    "helmet": "^3.22.0",
     "mongoose": "^5.9.13",
     "q": "^1.5.1",
+    "signale": "^1.4.0",
     "web-push": "^3.4.4"
   }
 }

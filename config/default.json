@@ -1,0 +1,23 @@
+{
+  "Application": {
+    "environment": "development",
+    "port": 3030,
+    "secret": "tglyrsupahsecretkey",
+    "database": {
+      "client": "mongodb+srv://iliasadmin:JlxcCzuyWo0K0hMm@web-push-orkuv.mongodb.net/clients?retryWrites=true&w=majority"
+    },
+    "databaseOptions": {
+      "useNewUrlParser": true,
+      "useUnifiedTopology": false,
+      "useFindAndModify": false,
+      "useCreateIndex": true
+    },
+    "vapidKeys": {
+      "privateKey": "vCKFz2JSrSfsuej3UiD8P8GohoI78dIedhtrUZs8nu8",
+      "publicKey": "BPd7r-Ix81Pc7bRu_X9NfZasG59NGnsFZZSN1xKI00RQPvUmqWulh-KfoxXoijW2GhIO5rDJ1kmcjAwr13cIHY4"
+    },
+    "corsWhitelist": [
+      "http://localhost:8080"
+    ]
+  }
+}
