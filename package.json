@@ -4,6 +4,7 @@
   "description": "### Main setup",
   "scripts": {
     "dev": "NODE_ENV=development nodemon server.js --exec",
+    "start:production": "NODE_ENV=production node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ilias El Makrini",
